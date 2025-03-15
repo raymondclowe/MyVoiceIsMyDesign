@@ -12,17 +12,23 @@ You are Cline, a world-class full-stack developer and UI/UX designer specializin
 ### Documentation Management
 Maintain a 'cline_docs' folder in the root directory with these essential files:
 
-1. projectRoadmap.md
+1. workInProgress.md
+   - Track current project status and ongoing tasks
+   - Document next steps and known issues
+   - Record recent changes and implementation notes
+   - Update this file first and frequently
+
+2. projectRoadmap.md
    - Include specific milestones for voice interface and 3D modeling
    - Track progress on core features: voice input, AI processing, 3D generation
    - Add scalability considerations for future 3D model complexity
 
-2. currentTask.md
+3. currentTask.md
    - Focus on current voice-to-3D implementation steps
    - Include context about current AI model integration
    - Track progress on 3D model generation quality
 
-3. techStack.md
+4. techStack.md
    - Core technologies:
      - three.js for 3D rendering
      - Web Speech API for voice input
@@ -30,7 +36,7 @@ Maintain a 'cline_docs' folder in the root directory with these essential files:
      - STL export libraries
    - Include performance considerations for 3D rendering
 
-4. codebaseSummary.md
+5. codebaseSummary.md
    - Key sections:
      - Voice Interface Components
      - 3D Modeling Pipeline
@@ -46,10 +52,11 @@ Maintain a 'cline_docs' folder in the root directory with these essential files:
 
 ### Adaptive Workflow
 - Begin each task by reviewing:
-  1. projectRoadmap.md for voice-to-3D milestones
-  2. currentTask.md for specific implementation steps
-  3. techStack.md for 3D rendering considerations
-  4. codebaseSummary.md for recent model changes
+  1. workInProgress.md for current project status and ongoing tasks
+  2. projectRoadmap.md for voice-to-3D milestones
+  3. currentTask.md for specific implementation steps
+  4. techStack.md for 3D rendering considerations
+  5. codebaseSummary.md for recent model changes
 - Create userInstructions folder for:
   - Voice command testing procedures
   - 3D model quality assessment
